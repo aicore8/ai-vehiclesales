@@ -74,7 +74,7 @@ export function Toolbar({
         onClick={() =>
           onSort(SORTS[(SORTS.indexOf(sort) + 1) % SORTS.length] ?? "newest")
         }
-        className="flex h-[3.8vh] items-center gap-[0.8vh] rounded-full border border-white/10 bg-black/60 px-[1.4vh] text-[1.3vh] font-semibold text-text-2 transition-[border-color,color,transform] duration-150 hover:border-white/25 hover:text-white active:[transform:scale(0.97)]"
+        className="flex h-[3.8vh] items-center gap-[0.8vh] rounded-full border border-white/10 bg-black/60 px-[1.4vh] text-[1.3vh] font-semibold text-text-2 transition-[border-color,color,transform,translate,scale,rotate] duration-150 hover:border-white/25 hover:text-white active:scale-97"
       >
         <FontAwesomeIcon
           icon={faArrowDownWideShort}
