@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/aifivem/ai-vehiclesales/compare/v0.1.5...v0.1.6) (2026-11-15)
+
+
+### Code Refactoring
+
+* **web:** individual translate / scale / rotate utilities instead of arbitrary transforms (CEF 144) ([bd25fef](https://github.com/aifivem/ai-vehiclesales/commit/bd25fefc1148e94697a4e8ede6935ba9dd9fd33b))
+
 ## [0.1.5](https://github.com/aifivem/ai-vehiclesales/compare/v0.1.4...v0.1.5) (2026-11-02)
 
 
