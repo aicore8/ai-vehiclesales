@@ -1,4 +1,9 @@
-import { aiLog, fuel, online, vehicleKeys } from "@aifivem/lib/server";
+import {
+  aiLog,
+  online,
+  vehicleCondition,
+  vehicleKeys,
+} from "@aifivem/lib/server";
 import { fail } from "@aifivem/lib/shared";
 import { settings } from "../content";
 import { listings } from "../listings/listings";
@@ -39,13 +44,8 @@ export function listVehicle(
       return fail(typeof still === "string" ? still : "ERR_FAILED");
     }
     const { entity } = still;
-    // The condition is the server's (fuel through ai-core's fuel layer); the stored look stays.
-    const level = fuel.get(entity);
-    vehiclesApi.SaveVehicle(vehicleId, {
-      engine: GetVehicleEngineHealth(entity),
-      body: GetVehicleBodyHealth(entity),
-      ...(level !== null ? { fuel: level } : {}),
-    });
+    // The condition is the server's (lib `vehicleCondition`: fuel layer, damage on Enhanced); the stored look stays.
+    vehiclesApi.SaveVehicle(vehicleId, vehicleCondition(entity));
     vehiclesApi.StoreVehicle(vehicleId, null, "garage");
     vehiclesApi.SetOwner(vehicleId, HOLD);
     vehicleKeys.remove(source, vehicle.plate);
