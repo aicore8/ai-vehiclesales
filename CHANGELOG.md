@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/aifivem/ai-vehiclesales/compare/v0.1.6...v0.1.7) (2026-11-16)
+
+
+### Bug Fixes
+
+* **vehiclesales:** listing saves the condition through lib vehicleCondition, damage included ([4eddd0c](https://github.com/aifivem/ai-vehiclesales/commit/4eddd0c5364eccfbafa49eb27259019fcd955200))
+
 ## [0.1.6](https://github.com/aifivem/ai-vehiclesales/compare/v0.1.5...v0.1.6) (2026-11-15)
 
 
