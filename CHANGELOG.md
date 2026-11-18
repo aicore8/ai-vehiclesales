@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.8](https://github.com/aicore8/ai-vehiclesales/compare/v0.1.7...v0.1.8) (2026-11-18)
+
+
+### Miscellaneous Chores
+
+* rename aifivem to aicore8 (aicore8.com, github.com/aicore8, [@aicore8](https://github.com/aicore8) npm scope) ([231d045](https://github.com/aicore8/ai-vehiclesales/commit/231d0458209af652baefe2ab40fc41ab6276fbc8))
+
 ## [0.1.7](https://github.com/aicore8/ai-vehiclesales/compare/v0.1.6...v0.1.7) (2026-11-16)
 
 
