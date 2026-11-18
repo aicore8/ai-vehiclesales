@@ -1,5 +1,5 @@
-import { PLACE_PED_SPEC, placePedFields } from "@aifivem/lib/shared";
-import type { CardSpec, FileSpec, TabSpec } from "@aifivem/shared";
+import { PLACE_PED_SPEC, placePedFields } from "@aicore8/lib/shared";
+import type { CardSpec, FileSpec, TabSpec } from "@aicore8/shared";
 
 export const lotsFile: FileSpec = {
   kind: "records",

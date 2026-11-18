@@ -3,8 +3,8 @@ import {
   online,
   SourceLock,
   vehicleNearPlayer,
-} from "@aifivem/lib/server";
-import type { CharacterInfo, OwnedVehicle } from "@aifivem/shared";
+} from "@aicore8/lib/server";
+import type { CharacterInfo, OwnedVehicle } from "@aicore8/shared";
 import type { Lot } from "common/lots";
 import { lots } from "./content";
 import { vehiclesApi } from "./vehicles";

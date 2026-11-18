@@ -1,6 +1,6 @@
-import { mysql } from "@aifivem/mysql";
-import { aiLog, notify, phone, resourceExport } from "@aifivem/lib/server";
-import { createLogger, groupDigits } from "@aifivem/lib/shared";
+import { mysql } from "@aicore8/mysql";
+import { aiLog, notify, phone, resourceExport } from "@aicore8/lib/server";
+import { createLogger, groupDigits } from "@aicore8/lib/shared";
 import { Locale, ResourceName } from "common";
 import { settings } from "./content";
 import { db } from "./db";

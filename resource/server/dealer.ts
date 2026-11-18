@@ -4,8 +4,8 @@ import {
   onClientCallback,
   resourceExport,
   vehicleKeys,
-} from "@aifivem/lib/server";
-import { fail, readId, readText } from "@aifivem/lib/shared";
+} from "@aicore8/lib/server";
+import { fail, readId, readText } from "@aicore8/lib/shared";
 import { dealerPriceOf } from "common/prices";
 import { EVENTS } from "common/sales";
 import { settings } from "./content";

@@ -1,5 +1,5 @@
-import { onClientCallback, onClientEvent } from "@aifivem/lib/server";
-import { fail, readId, readText } from "@aifivem/lib/shared";
+import { onClientCallback, onClientEvent } from "@aicore8/lib/server";
+import { fail, readId, readText } from "@aicore8/lib/shared";
 import { EVENTS } from "common/sales";
 import { lots } from "./content";
 import { inLot } from "./lotArea";

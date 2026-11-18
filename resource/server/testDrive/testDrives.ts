@@ -5,13 +5,13 @@ import {
   randomPlate,
   spawnVehicle,
   vehicleKeys,
-} from "@aifivem/lib/server";
+} from "@aicore8/lib/server";
 import {
   fail,
   toVehicleProps,
   toVehicleSetup,
   type ActionResult,
-} from "@aifivem/lib/shared";
+} from "@aicore8/lib/shared";
 import type { Lot } from "common/lots";
 import { EVENTS } from "common/sales";
 import { settings } from "../content";

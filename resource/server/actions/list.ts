@@ -3,8 +3,8 @@ import {
   online,
   vehicleCondition,
   vehicleKeys,
-} from "@aifivem/lib/server";
-import { fail } from "@aifivem/lib/shared";
+} from "@aicore8/lib/server";
+import { fail } from "@aicore8/lib/shared";
 import { settings } from "../content";
 import { listings } from "../listings/listings";
 import { drivenAtSellSpot, sellLock } from "../sellSpot";

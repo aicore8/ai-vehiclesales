@@ -1,4 +1,4 @@
-import { isNear } from "@aifivem/lib/server";
+import { isNear } from "@aicore8/lib/server";
 import type { Lot } from "common/lots";
 
 /** The player stands inside the lot (plus `slack` metres). */

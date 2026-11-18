@@ -3,8 +3,8 @@ import {
   nearestVehicleAt,
   online,
   resourceExport,
-} from "@aifivem/lib/server";
-import { fail } from "@aifivem/lib/shared";
+} from "@aicore8/lib/server";
+import { fail } from "@aicore8/lib/shared";
 import { payoutOf } from "common/prices";
 import { lots, settings } from "../content";
 import { listings } from "../listings/listings";

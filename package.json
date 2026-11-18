@@ -7,7 +7,7 @@
   "author": {
     "name": "TGIANN"
   },
-  "repository": "github:aifivem/ai-vehiclesales",
+  "repository": "github:aicore8/ai-vehiclesales",
   "type": "module",
   "fxDependencies": [
     "/onesync",
@@ -23,12 +23,12 @@
     "webdev": "bun run --cwd web dev"
   },
   "dependencies": {
-    "@aifivem/lib": "workspace:*",
-    "@aifivem/shared": "workspace:*",
-    "@aifivem/mysql": "workspace:*"
+    "@aicore8/lib": "workspace:*",
+    "@aicore8/shared": "workspace:*",
+    "@aicore8/mysql": "workspace:*"
   },
   "devDependencies": {
-    "@aifivem/build": "workspace:*",
+    "@aicore8/build": "workspace:*",
     "@citizenfx/client": "latest",
     "@citizenfx/server": "latest",
     "@types/bun": "latest",

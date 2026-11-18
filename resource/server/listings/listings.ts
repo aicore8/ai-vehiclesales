@@ -1,5 +1,5 @@
-import { mysql } from "@aifivem/mysql";
-import { isRecord } from "@aifivem/lib/shared";
+import { mysql } from "@aicore8/mysql";
+import { isRecord } from "@aicore8/lib/shared";
 import type { Tables } from "../tables";
 import { lots } from "../content";
 import { db } from "../db";

@@ -4,8 +4,8 @@ import {
   notify,
   Points,
   Zones,
-} from "@aifivem/lib/client";
-import { num, RecordObjects } from "@aifivem/lib/shared";
+} from "@aicore8/lib/client";
+import { num, RecordObjects } from "@aicore8/lib/shared";
 import { Locale } from "common";
 import { readLot } from "common/lots";
 import { settings, world } from "../content";
